@@ -1,0 +1,1 @@
+function exibirDados(){	var $form = $('#name, #cnpj, #address, #state, #city, #creationDate')	var obj = {}		$form.each(function(){		obj[this.id] = $(this).val();	});		var valuesJSON = JSON.stringify(obj);			console.log(valuesJSON);	alert(valuesJSON);}(jQuery);
