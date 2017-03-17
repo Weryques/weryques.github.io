@@ -162,3 +162,12 @@ article[role="pge-title-content"].contact-header p a:hover{
 	background-color:#f8524e
 }
 
+.popover-title {
+    color: black;
+    text-align: center;
+}
+.popover-content {
+    background-color:inherit; 
+	color:#404040;
+    font-size: 12px;
+}
